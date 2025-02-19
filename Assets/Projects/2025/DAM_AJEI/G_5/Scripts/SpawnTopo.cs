@@ -7,18 +7,30 @@ public class SpawnTopo : MonoBehaviour
     public List<GameObject> topos;
     public bool isMissed;
     public float timer = 3f;
-    public float spawnTIme = 15f;
+    public float spawnTime = 0f;
+    public float spawnedTime = 4f;
 
-    void Update()
-    {
+    //void Update()
+    //{
+    //    spawnTime += Time.deltaTime;
+    //    if (spawnTime >= spawnedTime)
+    //    {
+    //        SpawnPosition();  
+    //        spawnTime = 0f;
+    //    }
+    //}
 
-        SpawnPosition();  
-    }
+    //private void SpawnPosition()
+    //{            
+    //    int random = Random.Range(0,topos.Count);
+    //    topos[random].SetActive(true);
+    //    timer += Time.deltaTime;
+    //    if (timer >= 3)
+    //    {
+    //        topos[random].SetActive(false);
+    //        timer = 0f;
+    //    }
 
-    private void SpawnPosition()
-    {            
-        int random = Random.Range(0,topos.Count);
-        topos[random].SetActive(true);
-    }
+    //}
 
 }
