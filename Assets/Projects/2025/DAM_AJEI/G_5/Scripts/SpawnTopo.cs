@@ -4,18 +4,20 @@ using UnityEngine;
 
 public class SpawnTopo : MonoBehaviour
 {
-    public GameObject[] topos;
+    public List<GameObject> topos;
     public bool isMissed;
     public float timer = 3f;
+    public float spawnTIme = 15f;
 
     void Update()
     {
+
         SpawnPosition();  
     }
 
     private void SpawnPosition()
     {            
-        int random = Random.Range(0,topos.Length);
+        int random = Random.Range(0,topos.Count);
         topos[random].SetActive(true);
     }
 
