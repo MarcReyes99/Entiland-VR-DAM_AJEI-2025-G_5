@@ -7,8 +7,6 @@ TagManager:
   - Teleport
   - Obstacle
   - Objective
-  - Topo
-  - DeathTopo
   layers:
   - Default
   - TransparentFX
