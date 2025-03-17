@@ -9556,8 +9556,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnTime: 0
   spawnedTime: 4
-  scoretext: {fileID: 0}
-  score: 0
   spawnPoints: []
   good: 0
 --- !u!54 &309320822
@@ -42441,8 +42439,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnTime: 0
   spawnedTime: 4
-  scoretext: {fileID: 0}
-  score: 0
   spawnPoints: []
   good: 0
 --- !u!54 &1317268809
@@ -53090,8 +53086,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnTime: 0
   spawnedTime: 4
-  scoretext: {fileID: 0}
-  score: 0
   spawnPoints: []
   good: 0
 --- !u!54 &1465416758
@@ -61933,6 +61927,8 @@ MonoBehaviour:
   - {fileID: 55887715}
   - {fileID: 1140910503}
   - {fileID: 1584544420}
+  scorePoints: 0
+  scoretext: {fileID: 2135446796}
 --- !u!4 &1735512127
 Transform:
   m_ObjectHideFlags: 0
@@ -69482,8 +69478,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnTime: 0
   spawnedTime: 4
-  scoretext: {fileID: 0}
-  score: 0
   spawnPoints: []
   good: 0
 --- !u!54 &1993193080
@@ -74398,14 +74392,14 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2135446795}
-  m_Text: 
+  m_Text: 0
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
   m_Anchor: 0
   m_Alignment: 0
   m_TabSize: 4
-  m_FontSize: 0
+  m_FontSize: 50
   m_FontStyle: 0
   m_RichText: 1
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
@@ -74462,7 +74456,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2135446795}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -20.658, y: 2.223, z: -3.361}
+  m_LocalPosition: {x: -20.658, y: 2.543, z: -3.302}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -75237,8 +75231,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnTime: 0
   spawnedTime: 4
-  scoretext: {fileID: 0}
-  score: 0
   spawnPoints: []
   good: 0
 --- !u!1 &8307024366233435517
@@ -75276,8 +75268,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnTime: 0
   spawnedTime: 4
-  scoretext: {fileID: 0}
-  score: 0
   spawnPoints: []
   good: 0
 --- !u!54 &8307024366233435519
