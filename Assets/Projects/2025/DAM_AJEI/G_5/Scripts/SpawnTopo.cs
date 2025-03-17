@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class SpawnTopo : MonoBehaviour
 {
     public List<GameObject> puntosDeSpawn;
+    public int scorePoints = 0;
+    public TextMesh scoretext;
 
     public static SpawnTopo instance;
 
@@ -20,6 +23,11 @@ public class SpawnTopo : MonoBehaviour
         }
 
         DontDestroyOnLoad(this);
+    }
+
+    private void Update()
+    {
+        scoretext.text = scorePoints.ToString();
     }
 
 }

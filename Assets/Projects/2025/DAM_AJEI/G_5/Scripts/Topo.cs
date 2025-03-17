@@ -9,8 +9,6 @@ public class Topo : MonoBehaviour
 {
     public float spawnTime = 0f;
     public float spawnedTime = 4f;
-    [SerializeField] public TextMesh scoretext;
-    public int score = 0;
     public List<GameObject> spawnPoints;
 
     public bool good;
@@ -79,9 +77,8 @@ public class Topo : MonoBehaviour
     public void Hit()
     {
         gameObject.GetComponent<MeshRenderer>().enabled = false;
-        score++;
+        SpawnTopo.instance.scorePoints++;
         spawnTime = 0f;
-        scoretext.text = score.ToString();
     }
 
     
