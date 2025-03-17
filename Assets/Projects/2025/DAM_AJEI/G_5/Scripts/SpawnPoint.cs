@@ -1,10 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class SpawnPoint : MonoBehaviour
+namespace EntilandVR.DosCinco.DAM_AJEI.G_Cinco
 {
-    public bool inUse = false;
+    public class SpawnPoint : MonoBehaviour
+    {
+        public bool inUse = false;
 
 
+    }
 }

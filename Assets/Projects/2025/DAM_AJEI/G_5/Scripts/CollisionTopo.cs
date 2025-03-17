@@ -1,15 +1,16 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class CollisionTopo : MonoBehaviour
+namespace EntilandVR.DosCinco.DAM_AJEI.G_Cinco
 {
-    public void OnTriggerEnter(Collider other)
+    public class CollisionTopo : MonoBehaviour
     {
-        Debug.Log(other.gameObject.name);
-        if (other.gameObject.CompareTag("Obstacle"))
+        public void OnTriggerEnter(Collider other)
         {
-            other.gameObject.GetComponent<Topo>().Hit();
+            Debug.Log(other.gameObject.name);
+            if (other.gameObject.CompareTag("Obstacle"))
+            {
+                other.gameObject.GetComponent<Topo>().Hit();
+            }
         }
     }
 }
