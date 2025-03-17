@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/AutoHand/Examples/Scenes/OpenXR/Demo.unity
-    guid: 1551acbe06158c74e8ab2f58f9b373dc
+    path: Assets/Projects/2025/DAM_AJEI/G_5/Scenes/SampleScene.unity
+    guid: 925c26e720dd81d46a9007df68b43732
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 207b5b1301824714daf82998d8984ec0, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 52b832ac68555554ca1cc233a6ba1faa, type: 2}
